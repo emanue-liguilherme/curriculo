@@ -13,8 +13,8 @@
     Aqui o aluno pode trocar a cor de fundo e a fonte.
 */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #1470f1; /* Cor de fundo da página */
+    font-family: Georgia, 'Times New Roman', Times, serif
+    background-color: #ffffff; /* Cor de fundo da página */
     color: #333; /* Cor principal do texto */
     line-height: 1.6;
 }
@@ -32,7 +32,7 @@ body {
     background-color: #ffffff;
     padding: 30px;
     border-radius: 12px; /* Arredonda as bordas */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); /* Sombra */
+    box-shadow: 0 0 15px      rgb(0, 0, 0); /* Sombra */
 }
 
 /*
@@ -43,7 +43,7 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
-    background-color: #1f4e79; /* Cor do cabeçalho */
+    background-color: #000000; /* Cor do cabeçalho */
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -107,6 +107,12 @@ li {
     Caixa dos projetos.
     Pode ser usada para destacar experiências ou trabalhos escolares.
 */
+.btnsite{
+    background-color: #f5b2b2;
+    color:#1f4e79
+
+   
+}
 .projeto {
     background-color: #f2f6fa;
     padding: 15px;
